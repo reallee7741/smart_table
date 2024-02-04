@@ -1,0 +1,51 @@
+.smart_table{
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    .search{
+        text-align: left;
+        margin-bottom: 15px;
+        input[type="text"]{
+            
+        }
+        input[type="submit"]{
+            
+        }
+    }
+    .table{
+        width: 800px;
+        border: 1px solid black;
+        border-spacing: 0;
+        border-collapse: collapse;
+        margin-bottom: 15px;
+        tr{
+            height: 25px;
+            td{
+                border: 1px solid black;
+            }
+        }
+        .sort_btn{
+            font-size: 12px;
+            display: inline-block;
+            margin-right: 5px;
+            white-space: nowrap;
+        }
+        .column_name{
+            white-space: nowrap;
+        }
+    }
+    .pagination{
+        margin: 0;
+        padding: 0;
+        .item{
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .active{
+            color: red;
+        }
+        li:first-child{
+            margin-left: 0;
+        }
+    }
+}
